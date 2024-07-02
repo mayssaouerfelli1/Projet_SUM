@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ombre légère pour effet de profondeur */
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd; /* Bordures légères autour des cellules */
+  padding: 12px;
+  text-align: center;
+  font-size: 14px; /* Taille de police générale */
+}
+
+.custom-table th {
+  background-color: #1E7FCB; /* Couleur de fond pour l'en-tête */
+  color: #fff; /* Texte blanc pour contraste */
+  font-weight: bold; /* Texte en gras pour les titres de colonnes */
+}
+
+.custom-table input[type="number"] {
+  width: 60px; /* Largeur des champs numériques */
+  text-align: center;
+  border: 1px solid #ccc; /* Bordure légère autour des champs */
+  background-color: #f9f9f9; /* Couleur de fond pour les champs */
+  padding: 8px;
+  font-size: 14px; /* Taille de police */
+  box-sizing: border-box; /* Boîte-sizing pour inclure la padding dans la largeur */
+  transition: border-color 0.3s ease; /* Transition douce pour la bordure */
+}
+
+.custom-table input[type="number"]:focus {
+  outline: none; /* Suppression de l'outline lorsqu'un champ est en focus */
+  border-color: #1E7FCB; /* Changement de couleur de bordure quand le champ est en focus */
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f5f5f5; /* Couleur de fond pour les lignes paires */
+}
+
+
+
+
+
+
+
+
+
+.custom-select {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #1E7FCB;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-row {
+  margin-top: 10px;
+}
+
+
+.rounded-border {
+  border: 0.1px solid #000; /* Couleur et épaisseur du bord */
+  border-radius: 8px; /* Rayon des coins arrondis */
+  padding: 8px; /* Espacement intérieur */
+}
+
+
+.min-height-section {
+  min-height: 390px; /* Adjust this value as needed */
+}
